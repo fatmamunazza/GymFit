@@ -55,7 +55,7 @@ public class MainScreen extends AppCompatActivity {
         });
 
 
-        Fragment home=new time_table();
+        Fragment home=new about();
         getSupportFragmentManager().beginTransaction().add(R.id.container_mainscreen, home).commit();
 
 

@@ -12,6 +12,6 @@
       android:bottomRightRadius="7dp"/>
 
   <solid
-      android:color="#6A6868"/>
+      android:color="#00000000"/>
 
 </shape>
