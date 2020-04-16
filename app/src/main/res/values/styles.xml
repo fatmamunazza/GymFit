@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6A6868</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">#F84A12</item>
+    </style>
+    <style name="popupTheme" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:background">@color/appColor</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:listPreferredItemHeightSmall">32dp</item>
+        <item name="android:listPreferredItemPaddingRight">2dp</item>
+    </style>
+</resources>

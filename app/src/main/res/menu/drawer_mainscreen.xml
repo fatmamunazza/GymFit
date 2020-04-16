@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="HOME"
+            android:iconTint="@color/white"
+            android:id="@+id/home_drawer" />
+        <item
+            android:title="ABOUT US"
+            android:iconTint="@color/white"
+            android:id="@+id/about_drawer"/>
+        <item
+            android:title="COURSES"
+            android:iconTint="@color/white"
+            android:id="@+id/courses_drawer"/>
+        <item
+            android:title="CONTACT US"
+            android:iconTint="@color/white"
+            android:id="@+id/contact_drawer"/>
+        <item
+            android:title="BROCHURE"
+            android:iconTint="@color/white"
+            android:id="@+id/brochure_drawer"/>
+        <item
+            android:title="BOOK FOR DEMO"
+            android:iconTint="@color/white"
+            android:id="@+id/demo_drawer"/>
+        <item
+            android:title="RESOURCES"
+            android:iconTint="@color/white"
+            android:id="@+id/resources_drawer"/>
+        <item
+            android:title="FEATURES"
+            android:iconTint="@color/white"
+            android:id="@+id/features_drawer"/>
+        <item
+            android:title="TIME TABLE"
+            android:iconTint="@color/white"
+            android:id="@+id/table_drawer"/>
+        <item
+            android:title="COMPLAINTS &amp; FEEDBACK"
+            android:iconTint="@color/white"
+            android:id="@+id/feedback_drawer"/>
+        <!--<item
+            android:title="My Profile"
+            android:icon="@drawable/use_ic_my_profile"
+            android:iconTint="@color/primaryLightColor"
+            android:id="@+id/profile_drawer_main"/>
+
+        <item
+            android:title="Settings"
+            android:icon="@drawable/use_ic_settings_1"
+            android:id="@+id/setting_drawer_main"/>
+
+        <item
+            android:icon="@drawable/use_ic_logout"
+            android:fillColor="#000000"
+            android:iconTint="#000000"
+            app:itemIconTint="#000000"
+
+            android:title="Logout"
+            android:id="@+id/logout_drawer_main"/>
+
+        <item
+            android:icon="@drawable/use_ic_terms_n_conditions"
+            android:title="Terms and Conditions"
+            android:id="@+id/terms_drawer_main"/>
+
+        <item
+            android:icon="@drawable/use_ic_privacy_policy"
+            android:id="@+id/privacy_drawer_main"
+            android:title="Privacy Policy"/>-->
+
+    </group>
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#787777</color>
+    <color name="colorAccent">#F84A12</color>
+
+    <!-- ProgressBar theme. -->
+    <color name="progressStart">#FA0483</color>
+    <color name="progressEnd">#FB3E01</color>
+
+    <!-- Text theme. -->
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <color name="appColor">#FB3F03</color>
+    <color name="backColor">#FA5D2A</color>
+
+
+
+
+</resources>

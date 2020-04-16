@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.time_table"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="@color/appColor"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/day_select"
+        android:layout_marginTop="30dp"
+        android:paddingRight="10dp"
+        android:text="MONDAY"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:textColorLink="@color/colorAccent"
+        android:background="@drawable/button_background"
+        android:drawableRight="@drawable/ic_down_arrow"
+        android:clickable="true"
+        android:focusable="false"/>
+
+</LinearLayout>

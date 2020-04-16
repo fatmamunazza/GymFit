@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">GymFit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- home fragment text -->
+    <string name="home_firstpage_title">BUILD YOUR BODY</string>
+    <string name="home_firstpage_para">Stay Connected With Your Customers. Life Begins At The End Of Your Comfort Zone</string>
+    <string name="home_secondpage_para">LOOK in the MIRROR --- Thats your competition </string>
+    <string name="home_thirdpage_para">The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion</string>
+
+    <string name="home_about_title">ABOUT GYMFIT</string>
+    <string name="home_about_content">Lacking motivation to get back into the gym? Back in the gym already but feel stagnated? Or maybe you’re just looking for new inspiration for a new year. \n Gymfit provides powerful software solution for clubs to enabling integrated management of all the gym areas.</string>
+
+    <string name="home_course_title">OUR COURSES</string>
+
+    <!-- home fragment course text -->
+    <string name="squat">Squat</string>
+    <string name="squatPara">The most obvious benefit of squats is building your leg muscles – calves. These drills also create an anabolic environment, which promotes body-wide muscle building, improving muscle mass.</string>
+
+    <string name="deadlift">Deadlift</string>
+    <string name="deadliftPara">A deadlift is a strength-training exercise that primarily targets your hamstrings, lower back, quadriceps and glutes.You are picking up "dead weight" from the ground</string>
+
+    <string name="legPress">Leg press</string>
+    <string name="legPressPara">As you exercise with a leg press, the muscles worked primarily include the quadriceps and hamstrings.They\'re a Killer Warm-Up on Leg Days.They Build Awesome Quad Strength.They Can Help You Break Through Plateaus.</string>
+
+    <string name="chestFly">Chest Fly</string>
+    <string name="chestFlyPara">A fly or flye is a strength training exercise in which the hand and arm move through an arc while the elbow is kept at a constant angle.</string>
+
+    <string name="lunge">Lunge</string>
+    <string name="lungePara">A lunge can refer to any position of the human body where one leg is positioned forward with knee bent and foot flat on the ground while the other leg is positioned behin.</string>
+
+
+    <string name="benchPress">Bench Press</string>
+    <string name="benchPressPara">The bench press is a core fundamental exercise for developing upper body strength.By touching the bar to your chest, you ensure a full range of motion.</string>
+
+
+    <!-- home fragment trainer -->
+    <string name="home_trainer_title">OUR TRAINERS</string>
+
+    <string name="trainer_name_1">JOHN SMITH1</string>
+    <string name="trainer_prof_1">GYM TRAINER1</string>
+
+    <string name="trainer_name_2">JOHN SMITH2</string>
+    <string name="trainer_prof_2">GYM TRAINER2</string>
+    <string name="trainer_name_3">JOHN SMITH3</string>
+    <string name="trainer_prof_3">GYM TRAINER3</string>
+
+    <string name="trainer_name_4">JOHN SMITH4</string>
+    <string name="trainer_prof_4">GYM TRAINER4</string>
+
+    <string name="trainer_name_5">JOHN SMITH5</string>
+    <string name="trainer_prof_5">GYM TRAINER5</string>
+    <string name="trainer_name_6">JOHN SMITH6</string>
+    <string name="trainer_prof_6">GYM TRAINER6</string>
+
+
+</resources>

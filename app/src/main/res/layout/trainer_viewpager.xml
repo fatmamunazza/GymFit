@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="2.9"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:cardCornerRadius="158dp"
+        app:cardElevation="10dp">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/imageView" />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:paddingBottom="20dp"
+               android:paddingTop="10dp"
+               android:paddingLeft="30dp"
+               android:paddingRight="30dp"
+               android:layout_alignParentBottom="true"
+               android:background="@color/design_default_color_background">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/trainer_name_1"
+                   android:textColor="@color/appColor"
+                   android:gravity="center_horizontal"
+                   android:textSize="25sp"
+                   android:textStyle="bold"
+                   android:paddingBottom="5dp"
+                   android:id="@+id/viewpager_title"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/viewpager_text"
+                   android:text="@string/trainer_prof_1"
+                   android:textColor="@color/black"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:gravity="center_horizontal"/>
+
+           </LinearLayout>
+       </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
