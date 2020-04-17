@@ -14,6 +14,7 @@
 
     <color name="appColor">#FB3F03</color>
     <color name="backColor">#FA5D2A</color>
+    <color name="errorColor">#F40404</color>
 
 
 

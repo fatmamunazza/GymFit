@@ -1,5 +1,6 @@
 package com.example.gymfit.fragment;
 
+import android.media.AudioManager;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -15,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.MediaController;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.VideoView;
 
@@ -51,7 +53,8 @@ public class home extends Fragment {
     final long PERIOD_MS = 3000; // time in milliseconds between successive task executions.
     final boolean[] userscroll = {false};
 
-   VideoView videoView;
+
+
 
     public home() {
         // Required empty public constructor
@@ -67,12 +70,6 @@ public class home extends Fragment {
 
          Dotspanel=view.findViewById(R.id.SliderDots);
          viewPager=view.findViewById(R.id.viewPager);
-         videoView=view.findViewById(R.id.videoView);
-
-         videoView.setVideoURI(Uri.parse("android.resources://com.example.gymfit/" + R.raw.sample));
-         videoView.setMediaController(new MediaController(getContext()));
-         videoView.requestFocus();
-         videoView.start();
 
 
         DotspanelCourse=view.findViewById(R.id.SliderDotsCourse);

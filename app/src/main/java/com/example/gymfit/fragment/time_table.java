@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 
 import com.example.gymfit.R;
@@ -42,6 +43,11 @@ public class time_table extends Fragment {
         boxing=view.findViewById(R.id.view6);
         aerobics=view.findViewById(R.id.view7);
         bodyBuilding=view.findViewById(R.id.view8);
+
+
+        /*ArrayAdapter<CharSequence> adapter=ArrayAdapter.createFromResource(getContext(),R.array.state_array,R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(R.layout.simple_spinner_dropdown_item);
+        state.setAdapter(adapter);*/
 
 
         selectDay.setOnClickListener(new View.OnClickListener() {

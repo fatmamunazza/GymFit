@@ -1,40 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/colorPrimary">
+    android:orientation="vertical"
+    android:background="@color/black">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/progressBar"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
-        <TextView
+        android:layout_height="match_parent"
+        android:background="@drawable/personal_trainer"
+        android:backgroundTintMode="multiply"
+        android:backgroundTint="#2B2A2A">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:id="@+id/layout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GYM"
+                android:textColor="@color/colorAccent"
+                android:textSize="50sp"
+                android:id="@+id/gym"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FIT"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="50sp"/>
+        </LinearLayout>
+        <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GYM"
-            android:textColor="@color/colorAccent"
-            android:textSize="50sp"
-            android:id="@+id/gym"
-            android:textStyle="bold"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="FIT"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="50sp"/>
-    </LinearLayout>
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:padding="20dp"
-        android:id="@+id/progressBar"
-        android:indeterminateDrawable="@drawable/custom_progressbar"/>
+            android:layout_below="@+id/layout"
+            android:padding="20dp"
+            android:id="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:indeterminateDrawable="@drawable/custom_progressbar"/>
+    </RelativeLayout>
 
-</RelativeLayout>
+</LinearLayout>
