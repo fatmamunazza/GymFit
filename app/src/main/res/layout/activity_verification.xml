@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.Verification"
+    android:orientation="vertical"
+    android:background="@drawable/banner">
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logout"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="end|top"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/layout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GYM"
+            android:textColor="@color/colorAccent"
+            android:textSize="50sp"
+            android:id="@+id/gym"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIT"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="50sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <!--<TextView
+            android:id="@+id/screenName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginBottom="80dp"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Enter Verification Code Here"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/otpET1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/otpET2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/otpET3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/otpET4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/otpET5"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/otpET6"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/errorMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:text="Incorrect Validation Code"
+            android:textSize="20dp"
+            android:textColor="@color/errorColor"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            android:gravity="center_horizontal" />
+
+        <FrameLayout
+            android:id="@+id/progressBarContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout"
+                android:padding="20dp"
+                android:id="@+id/progressBar"
+                android:layout_centerHorizontal="true"
+                android:indeterminateDrawable="@drawable/custom_progressbar"/>
+
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Please check your spam folder \nif mail not found!!"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/emailId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Email Sent to: "
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/sendVerificationCode"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Tap to send Code again"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/verify"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:text="Verify"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:gravity="center_horizontal"
+            android:background="@drawable/button_dark_background"/>
+    </LinearLayout>
+
+</LinearLayout>
