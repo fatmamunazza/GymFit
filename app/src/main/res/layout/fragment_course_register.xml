@@ -51,13 +51,21 @@
                        <TextView
                            android:layout_width="match_parent"
                            android:layout_height="wrap_content"
-                           android:text="@string/course_title1"
                            android:textColor="@color/appColor"
                            android:gravity="center_horizontal"
                            android:textSize="25sp"
                            android:id="@+id/register_title"
                            android:textStyle="bold"
                            android:paddingBottom="5dp" />
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="@color/appColor"
+                           android:gravity="center_horizontal"
+                           android:textSize="25sp"
+                           android:text="$ 500"
+                           android:textStyle="bold"
+                           android:padding="10dp" />
                        <LinearLayout
                            android:layout_width="match_parent"
                            android:layout_height="wrap_content"
@@ -91,7 +99,6 @@
                            android:gravity="center_horizontal"
                            android:paddingBottom="5dp"
                            android:paddingTop="5dp"
-                           android:text="@string/course_para1"
                            android:textColor="@color/black"
                            android:textSize="15sp" />
                    </LinearLayout>
@@ -102,19 +109,22 @@
            <TextView
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:background="@color/white"
+               android:background="#fff"
                android:paddingLeft="20dp"
-               android:text="Register for this workout?"
+               android:text="Enroll for this workout"
                android:textSize="24sp"
+               android:gravity="center"
                android:textStyle="bold"
+               android:id="@+id/enroll"
                android:textColor="@color/appColor"
                android:layout_marginTop="5dp"/>
-           <TextView
+
+
+          <!-- <TextView
                android:id="@+id/heading_title"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:paddingLeft="20dp"
-               android:text="KETTLEBELL"
                android:textSize="18sp"
                android:textStyle="bold"
                android:textColor="@color/black"
@@ -282,7 +292,7 @@
 
 
            </LinearLayout>
-          <!-- <LinearLayout
+          &lt;!&ndash; <LinearLayout
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:orientation="vertical"
@@ -369,7 +379,7 @@
                        android:background="@drawable/button_background"/>
 
                </LinearLayout>
-           </LinearLayout>-->
+           </LinearLayout>&ndash;&gt;
            <LinearLayout
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
@@ -407,7 +417,7 @@
                            android:visibility="invisible"/>
 
                    </LinearLayout>
-                   <!--<androidx.cardview.widget.CardView
+                   &lt;!&ndash;<androidx.cardview.widget.CardView
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:layout_gravity="center"
@@ -426,7 +436,7 @@
                           android:id="@+id/address"
                           android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"/>
 
-                   </androidx.cardview.widget.CardView>-->
+                   </androidx.cardview.widget.CardView>&ndash;&gt;
                    <EditText
                        android:id="@+id/address"
                        android:layout_width="match_parent"
@@ -457,7 +467,7 @@
                android:gravity="center"
                android:background="@drawable/button_dark_background"
                android:clickable="true"
-               android:focusable="false"/>
+               android:focusable="false"/>-->
 
        </LinearLayout>
    </ScrollView>

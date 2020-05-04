@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.gymfit.register.Registration;
+import com.example.gymfit.register.Skip;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -22,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         timer.schedule(new TimerTask() { // task to be scheduled
             @Override
             public void run() {
-                Intent i=new Intent(MainActivity.this,MainScreen.class);
+                Intent i=new Intent(MainActivity.this, Skip.class);
                 startActivity(i);
             }
         }, 1000);

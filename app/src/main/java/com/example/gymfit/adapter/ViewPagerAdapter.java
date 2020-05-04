@@ -50,7 +50,7 @@ public class ViewPagerAdapter extends PagerAdapter {
 
 
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.image_viewpager, null);
+        View view = layoutInflater.inflate(R.layout.viewpage_layout, null);
         ImageView imageView = (ImageView) view.findViewById(R.id.imageView);
 
         TextView para = (TextView) view.findViewById(R.id.viewpager_text);

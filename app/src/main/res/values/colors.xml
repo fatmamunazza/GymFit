@@ -15,6 +15,10 @@
     <color name="appColor">#FB3F03</color>
     <color name="backColor">#FA5D2A</color>
     <color name="errorColor">#F40404</color>
+    <color name="registerText">#FBD7CC</color>
+    <color name="registerText3">#1B1919</color>
+    <color name="appText">#FBECE7</color>
+    <color name="viewColor">#FAA88D</color>
 
 
 

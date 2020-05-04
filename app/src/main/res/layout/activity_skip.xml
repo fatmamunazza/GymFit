@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.Skip"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/checkButton">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout1">
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/SliderDots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingBottom="20dp"/>
+
+        </RelativeLayout>
+       <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_about_content"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>-->
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKIP"
+        android:textColor="@color/white"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/skip"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN / SIGN UP"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/checkButton"
+        android:background="@color/appColor"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

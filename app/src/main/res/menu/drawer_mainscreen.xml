@@ -12,42 +12,50 @@
         <item
             android:title="ABOUT US"
             android:iconTint="@color/white"
-            android:id="@+id/about_drawer"/>
+            android:id="@+id/about_drawer"
+            android:icon="@drawable/ic_about_us"/>
         <item
             android:title="COURSES"
             android:iconTint="@color/white"
-            android:id="@+id/courses_drawer"/>
-        <item
-            android:title="CONTACT US"
-            android:iconTint="@color/white"
-            android:id="@+id/contact_drawer"
-            android:icon="@drawable/ic_contacts"/>
+            android:id="@+id/courses_drawer"
+            android:icon="@drawable/ic_app_icon"/>
         <item
             android:title="BOOK FOR DEMO"
             android:iconTint="@color/white"
             android:id="@+id/demo_drawer"/>
         <item
-            android:title="CERTIFICATION"
-            android:iconTint="@color/white"
-            android:id="@+id/certification_drawer"/>
-        <item
-            android:title="FEATURES"
-            android:iconTint="@color/white"
-            android:id="@+id/features_drawer"/>
-        <item
             android:title="TIME TABLE"
             android:iconTint="@color/white"
-            android:id="@+id/table_drawer"/>
+            android:id="@+id/table_drawer"
+            android:icon="@drawable/ic_time_tabe"/>
+        <item
+            android:title="CERTIFICATION"
+            android:iconTint="@color/white"
+            android:id="@+id/certification_drawer"
+            android:icon="@drawable/ic_certification"/>
+
+        <item
+            android:title="CONTACT US"
+            android:iconTint="@color/white"
+            android:id="@+id/contact_drawer"
+            android:icon="@drawable/ic_contact_us"/>
+
+        <item
+            android:title="RATE US"
+            android:iconTint="@color/white"
+            android:id="@+id/rate_drawer"
+            android:icon="@drawable/ic_rate"/>
+        <item
+            android:title="Share App"
+            android:iconTint="@color/white"
+            android:id="@+id/share_drawer"
+            android:icon="@drawable/ic_share"/>
         <item
             android:title="COMPLAINTS &amp; FEEDBACK"
             android:iconTint="@color/white"
             android:id="@+id/feedback_drawer"
             android:icon="@drawable/ic_feedback"/>
-        <!--<item
-            android:title="My Profile"
-            android:icon="@drawable/use_ic_my_profile"
-            android:iconTint="@color/primaryLightColor"
-            android:id="@+id/profile_drawer_main"/>-->
+
 
 
 

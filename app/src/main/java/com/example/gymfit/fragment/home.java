@@ -67,7 +67,6 @@ public class home extends Fragment {
         // Inflate the layout for this fragment
 
         View view= inflater.inflate(R.layout.fragment_home, container, false);
-
          Dotspanel=view.findViewById(R.id.SliderDots);
          viewPager=view.findViewById(R.id.viewPager);
 
@@ -75,9 +74,9 @@ public class home extends Fragment {
         DotspanelCourse=view.findViewById(R.id.SliderDotsCourse);
         viewPagerCourse=view.findViewById(R.id.viewPagerCourse);
 
-        DotspanelTrainer=view.findViewById(R.id.SliderDotsTrainer);
+      /*  DotspanelTrainer=view.findViewById(R.id.SliderDotsTrainer);
         viewPagerTrainer=view.findViewById(R.id.viewPagerTrainer);
-
+*/
 
        if(getContext()!=null){
            ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getContext());
@@ -86,13 +85,13 @@ public class home extends Fragment {
            pagereffect pg=new pagereffect();
            pg.pagerEffect(viewPager,dotscount,getContext(),Dotspanel);
 
-           ViewPagerCourseAdapter viewPagerAdap = new ViewPagerCourseAdapter(getContext());
+         /*  ViewPagerCourseAdapter viewPagerAdap = new ViewPagerCourseAdapter(getContext());
            viewPagerCourse.setAdapter(viewPagerAdap);
            dotscountCourse = viewPagerAdap.getCount();
            pagereffect pg2=new pagereffect();
-           pg2.pagerEffect(viewPagerCourse,dotscountCourse,getContext(),DotspanelCourse);
+           pg2.pagerEffect(viewPagerCourse,dotscountCourse,getContext(),DotspanelCourse);*/
 
-           ViewPagerTrainerAdapter viewPagerTrainerAdapter = new ViewPagerTrainerAdapter(getContext());
+          /* ViewPagerTrainerAdapter viewPagerTrainerAdapter = new ViewPagerTrainerAdapter(getContext());
            viewPagerTrainer.setAdapter(viewPagerTrainerAdapter);
            dotscountTrainer = viewPagerTrainerAdapter.getCount();
 
@@ -219,7 +218,7 @@ public class home extends Fragment {
                        }
                    }
                }
-           });
+           });*/
 
        }
         return view;
